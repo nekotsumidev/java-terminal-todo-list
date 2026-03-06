@@ -1,50 +1,45 @@
-📝 Java Terminal To-Do List
+# 📝 Java Terminal To-Do List
 
-A simple console To-Do List application made in Java for learning purposes.
+A simple terminal-based To-Do List made in Java for learning purposes.
 
-This project was created while studying Java and practicing fundamental programming concepts.
-Features
+This project was created while studying Java and practicing programming logic, user input handling, and menu systems.
 
-    Add tasks
+## Features
 
-    List tasks
+* Add tasks to a list
+* List all tasks
+* Remove tasks
+* Interactive terminal menu
+* Continuous program loop using `while`
+* Menu control using `switch`
+* Simple task storage using `ArrayList`
 
-    Remove tasks
+## Technologies
 
-    Menu-based interface
+* Java (JDK 21)
 
-    Task storage using ArrayList
+## How to Run
 
-    User input handling with Scanner
-
-    Pause system to improve console readability
-
-Technologies
-
-    Java (JDK 21)
-
-How to Run
-
-    Clone the repository
+1. Clone the repository
 
 git clone https://github.com/nekotsumidev/java-terminal-todo-list.git
 
-    Open the project in your Java IDE
+2. Open the project in your Java IDE
 
-    Run the main class
+3. Run the main class
 
-Learning Source
+## Learning Source
 
 This project was built by myself while learning Java.
 
-ChatGPT helped me understand programming concepts such as ArrayList, switch, and how a menu-driven console program works. The explanations helped me understand the logic and structure needed to implement the features.
+ChatGPT helped me understand some programming concepts and the behavior of certain Java features, but I implemented the logic and structure of the program myself.
 
-Most of the implementation was done by myself while experimenting and solving problems during development.
+I also used knowledge gained from my previous Java projects, which helped reinforce programming concepts and improve my problem-solving skills.
 
-This project was also developed using knowledge and experience gained from my previous Java projects, helping me reinforce programming concepts and improve my problem-solving skills.
+For this project, I tried to solve more things independently instead of directly asking for solutions.
 
-No code was directly copied — I applied everything myself based on the explanations and my own practice.
-Author
+**No code was directly given** — I applied everything myself based on explanations and my previous experience.
 
-GitHub:
-https://github.com/nekotsumidev
+## Author
+
+GitHub: https://github.com/nekotsumidev
