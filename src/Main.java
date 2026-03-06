@@ -55,6 +55,12 @@ public class Main {
                             ====================
                             """ + tasks);
 
+                    System.out.println("""
+                    ====================
+                    Press Enter to return. . .
+                    """);
+                    sc.nextLine();
+
                     String task = sc.nextLine();
 
                     tasks.remove(task);
