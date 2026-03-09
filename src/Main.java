@@ -37,33 +37,51 @@ public class Main {
                     tasks.add(task);
                 }
                 case 2 -> {
-                    System.out.print("""
-                            Tasks List:
-                            ====================
-                            """);
-                    System.out.println(tasks);
-
-                    System.out.println("""
+                    if (tasks.isEmpty()) {
+                        System.out.println("""
+                    No tasks yet!
                     ====================
                     Press Enter to return. . .
                     """);
-                    sc.nextLine();
+                        sc.nextLine();
+                    } else {
+                        System.out.print("""
+                            Tasks List:
+                            ====================
+                            """);
+                        System.out.println(tasks);
+
+                        System.out.println("""
+                    ====================
+                    Press Enter to return. . .
+                    """);
+                        sc.nextLine();
+                    }
                 }
                 case 3 -> {
-                    System.out.println("""
+                    if (tasks.isEmpty()) {
+                        System.out.println("""
+                    No tasks yet!
+                    ====================
+                    Press Enter to return. . .
+                    """);
+                        sc.nextLine();
+                    } else {
+                        System.out.println("""
                             Remove task:
                             ====================
                             """ + tasks);
 
-                    System.out.println("""
+                        System.out.println("""
                     ====================
                     Press Enter to return. . .
                     """);
-                    sc.nextLine();
+                        sc.nextLine();
 
-                    String task = sc.nextLine();
+                        String task = sc.nextLine();
 
-                    tasks.remove(task);
+                        tasks.remove(task);
+                    }
                 }
                 case 4 -> {
                     System.out.println("Exit");
